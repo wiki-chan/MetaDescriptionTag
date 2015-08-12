@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cafeinlove\r",
+			"Fenet-\r"
+		]
+	},
+	"metadescriptiontag-desc": "페이지 헤더에 메타 설명을 삽입하는 태그",
+	"metadescriptiontag-missing-content": "오류 : &lt;metadesc&gt; 태그는 반드시 &quot;content&quot; 속성이 정의되어야 합니다."
+}

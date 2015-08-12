@@ -1,0 +1,28 @@
+{
+	"name": "MetaDescriptionTag",
+	"version": "0.4",
+	"author": [
+		"Joshua C. Lerner",
+		"Fenet-"
+	],
+	"url": "https://github.com/wiki-chan/MetaDescriptionTag",
+	"descriptionmsg": "metadescriptiontag-desc",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"MetaDescriptionTag": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MetaDescriptionTag": "MetaDescriptionTag.class.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"MetaDescriptionTag::setupMetaDescriptionTagParserHooks"
+		],
+		"OutputPageBeforeHTML": [
+			"MetaDescriptionTag::insertMetaDescription"
+		]
+	}
+}
